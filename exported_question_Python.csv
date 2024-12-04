@@ -1,0 +1,86 @@
+questionDesc,answerCheck,area,level,difficulty,duration,tags,isActive,topicName,answer
+What are iterators in Python?,"An iterator is an object. It remembers its state i.e., where it is during iteration.",Python,"BEGINNER,INTERMEDIATE,EXPERIENCED",EASY,5,Python,true,Python,
+"",Knows it has a __next__() method which returns the next item in iteration and points to the next element.,Python,,,,,,,
+"",Knows upon reaching the end of iterable object __next__() must return StopIteration exception.,Python,,,,,,,
+"",Knows __iter__() method initializes an iterator.,Python,,,,,,,
+What is list comprehension? Give an example.,Knows about list comprehension.,Python,"BEGINNER,INTERMEDIATE,EXPERIENCED",EASY,5,"Programming,Python",true,Python,
+"",Knows about usage of list comprehension.,Python,,,,,,,
+"",Was able to give an example.,Python,,,,,,,
+What is Lambda function and give example where it can be used ?,Knows about Lambda function.,Python,"BEGINNER,INTERMEDIATE,EXPERIENCED",EASY,5,"Programming,Python",true,Python,
+"",Was able to give an example.,Python,,,,,,,
+"",Knows about Lambda function usage.,Python,,,,,,,
+How do you access parent members in the child class?,Knows to do so using Parent class name.,Python,"BEGINNER,INTERMEDIATE,EXPERIENCED",EASY,5,"oops,Python",true,Python,
+"",Knows to do so by using super() method.,Python,,,,,,,
+How will you check if a class is a child of another class?,Knows to do so by using a method called issubclass().,Python,"BEGINNER,INTERMEDIATE,EXPERIENCED",EASY,5,"oops,Inheritance,Python",true,Python,
+Differentiate between deep and shallow copies.,Deep copy creates an independent and new copy of an object and even copies all the nested objects of the original element recursively.,Python,"BEGINNER,INTERMEDIATE,EXPERIENCED",EASY,5,"Programming,Data,Python",true,Python,
+"",Shallow copy does the task of creating new objects storing references of original elements. This does not undergo recursion to create copies of nested objects. It just copies the reference details of nested objects.,Python,,,,,,,
+"What is difference between sort and sorted in python?
+
+Instruction to Interviewer: Capture answer from candidate in the feedback section",Knows sort function returns nothing and makes changes to the original sequence.,Python,"BEGINNER,INTERMEDIATE,EXPERIENCED",EASY,5,"Python,Sorting",true,Python,
+"",Knows sorted() function creates a new sequence type containing a sorted version of the given sequence,Python,,,,,,,
+"Given a List of integers (List<Integer>), write code in python style to get the sum of the squares of all the odd numbers in the array.",Knows to use sum() or reduce() correctly.,Python,"BEGINNER,INTERMEDIATE,EXPERIENCED",EASY,5,"Programming,Python",true,Python,
+"",Knows to use map() correctly.,Python,,,,,,,
+"",Knows to use filter() correctly.,Python,,,,,,,
+"What will be the output of below code?
+
+class A:
+	def fun(a,b):
+		return a+b
+
+class B(A):
+	def fun(p,q,r):
+		return p+q/r
+
+b1= B()
+
+b1.fun(10,20)
+b1.fun(10,20,30)
+
+Instruction to Interviewer: Capture exact response in Feedback section",Candidate was able to identify this code will give ERROR.,Python,"BEGINNER,INTERMEDIATE,EXPERIENCED",EASY,5,"Inheritance,Programming,Python",true,Python,
+"Given a List of n integers and a number k, find the pairs of numbers in the list such that the difference between the pair is k. Find the optimal solution with and without extra storage.
+
+Instruction to Interviewer: Capture candidate's logic in feedback section",Candidate was able to provide working logical code.,Python,"BEGINNER,INTERMEDIATE,EXPERIENCED",EASY,5,"Programming,Python",true,Python,
+"Program to flatten the list
+Input: l1 = [1,[2,3, [4, 5]]]
+Output: l1 = [1,2,3,4,5]
+
+Instruction to Interviewer: Capture code in the feedback section",Candidate was able to write correct code.,Python,"BEGINNER,INTERMEDIATE,EXPERIENCED",EASY,5,"Programming,Python",true,Python,
+"Longest Even Length Word: 
+Write a function to return the longest even length word in a sentence.
+
+Sample input: Be not afraid of greatness, some are born great, some achieve greatness, and some have greatness thrust upon them.
+
+Instruction to Interviewer: Capture Candidate's code in feedback section",Candidate was able to provide working logical code.,Python,"BEGINNER,INTERMEDIATE,EXPERIENCED",EASY,5,"String-manipulation,Programming,Python",true,Python,
+"Write a function to count the number of unique digits in a number - 
+eg 111 -> 1
+121 -> 2
+123 -> 3
+
+Instruction to Interviewer: Capture Candidate's code in feedback section",Candidate was able to provide working logical code.,Python,"BEGINNER,INTERMEDIATE,EXPERIENCED",EASY,5,"Programming,Python,Number-manipulation",true,Python,
+What are control flow statements in python?,Understands and Uses,Python,"BEGINNER,INTERMEDIATE,EXPERIENCED",EASY,5,Python,true,Python,
+What are dataframes?,Understands and Uses,Python,"BEGINNER,INTERMEDIATE,EXPERIENCED",EASY,5,Python,true,Python,
+What is the difference between list and tuple?,"Uses , Understands & Compare",Python,"BEGINNER,INTERMEDIATE,EXPERIENCED",EASY,5,Python,true,Python,
+What are lambda functions,Understands  and                                             Uses,Python,"BEGINNER,INTERMEDIATE,EXPERIENCED",EASY,5,Python,true,Python,
+Write a python Function to de-duplicate items in a list,Familiar with language,Python,"BEGINNER,INTERMEDIATE,EXPERIENCED",EASY,10,Python,true,Python,
+"",Understands problem,Python,,,,,,,
+"",Understands Algorithm,Python,,,,,,,
+Explain the difference between JVM and JRE?,The candidate was able to explain that JRE implementation is seperate for every operating system.,JavaBasics,"BEGINNER,INTERMEDIATE",MEDIUM,10,"202404-ck,reqid-1045",true,Python,"JVM is the virtual machine responsible for executing Java bytecode, the JRE encompasses the JVM along with additional runtime components and resources required for running Java applications. The JVM is a crucial part of the JRE, providing the runtime execution environment, but the JRE includes additional components to support the execution of Java programs."
+"",The candidate was able to explain that JRE provides the environment necessary for exeucitng Java Programs without need for compilation.,JavaBasics,,,,,,,
+"",The candidate was able to explain  Just In Time compilation.,JavaBasics,,,,,,,
+What is a lambda function in Python? Provide an example.,Can provide an example of using lambda function in Python.,Lambda Functions,"BEGINNER,INTERMEDIATE,EXPERIENCED",MEDIUM,15,"Spark,Python",true,Python,"A lambda function is a small anonymous function in Python that can take any number of arguments but can only have one expression. It is defined using the lambda keyword, followed by a comma-separated list of arguments, a colon, and the expression. For example: 
+
+add = lambda x, y: x + y
+print(add(5, 3))  # Output: 8"
+"",Knows the concept of lambda functions and their syntax.,Lambda Functions,,,,,,,
+What is the difference between a list and a tuple in Python?,Knows that a list is mutable and a tuple is immutable in Python.,Lists and Tuples,"BEGINNER,INTERMEDIATE,EXPERIENCED",MEDIUM,10,"Spark,Python",true,Python,"In Python, a list is mutable, meaning its elements can be changed, added, or removed after creation. A tuple, on the other hand, is immutable, meaning its elements cannot be changed once created. Lists are defined using square brackets [], while tuples are defined using parentheses ()."
+"",Can explain the concept of mutability and immutability in Python.,Lists and Tuples,,,,,,,
+"Given a list of integers, form a pair of 2 such that from that pair we get the max sum of all the min element in the pair. 
+
+Example: [1,3,5,4], we can form many pair but the max sum is given by [1,3]and [5,4] as 1+4 which is min in each pair sum up to be 5 which is max from any other combination.",just sort the array and then pick all the number form even index and add it ti get the max value,Python,INTERMEDIATE,MEDIUM,5,"Programming,Python",true,Python,
+"Given List = 0,1,2,3,4,5,6,7  and Target = 9, write a code to sum any 2 element  from list if equal to target , Print those element .",Answer: Can do it in brute force by running 2 loops add each element and check for sum.,Python,BEGINNER,MEDIUM,5,"programming,Python",true,Python,
+"Given a string str, give the function to return the string array of chunk  of 3 characters.  
+Example: 
+Input: s = ?geeksforgeeks? 
+Output [?gee?,?ksf?,?org?,?eek?,?s?]","Can be done using Slicing of the array at the step of 3 
+Reveres a string.",Python Data Engineering,BEGINNER,EASY,5,Python,true,Python,
+Given a class user. Give the count of the number of instance of user created.,Create an global array and store the user_id or user_name then give the length of array.,Python,BEGINNER,EASY,5,"Programming,Python",true,Python,
