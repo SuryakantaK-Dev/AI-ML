@@ -5,3 +5,67 @@ Purning.
 Quantisation and purning.
 
 Hyperparameter fine tuning.
+
+Transfermere architecture ?
+
+Classfication model steps
+----------------------------------
+
+Creating a classification model involves a series of structured steps to ensure the model performs well. Here's a step-by-step guide:
+
+1. Understand the Problem
+Define the Goal: Understand what you want the model to classify (e.g., spam vs. non-spam emails).
+Identify Output Classes: Define the possible categories or labels (e.g., binary classification: 0/1, or multi-class classification).
+2. Data Collection
+Gather a dataset that contains features (input variables) and corresponding labels (output classes).
+Ensure the dataset is representative of the problem domain.
+3. Data Preprocessing
+Handle Missing Data: Fill or remove missing values.
+Encoding: Convert categorical features into numerical format (e.g., one-hot encoding, label encoding).
+Normalization/Standardization: Scale features to ensure uniformity (e.g., Min-Max scaling or Z-score normalization).
+Data Splitting: Divide the data into training, validation, and test sets (e.g., 70% training, 15% validation, 15% testing).
+4. Exploratory Data Analysis (EDA)
+Visualize data distribution, correlations, and class imbalances.
+Identify outliers and remove or handle them appropriately.
+Address class imbalance using techniques like oversampling, undersampling, or SMOTE (Synthetic Minority Oversampling Technique).
+5. Choose a Classification Algorithm
+Simple Models: Logistic Regression, k-Nearest Neighbors (k-NN), Decision Trees.
+Complex Models: Random Forest, Gradient Boosting (XGBoost, LightGBM), Support Vector Machines (SVM), Neural Networks.
+6. Feature Engineering
+Feature Selection: Identify and retain only the most relevant features.
+Feature Creation: Derive new features from existing ones, if necessary.
+Dimensionality Reduction: Use techniques like PCA (Principal Component Analysis) if the feature space is too large.
+7. Model Training
+Select an algorithm and train it on the training dataset.
+Optimize hyperparameters (e.g., learning rate, number of trees) using grid search or random search.
+Regularization (e.g., L1/L2 penalties) may be applied to avoid overfitting.
+8. Model Evaluation
+Evaluate the model using metrics such as:
+Accuracy: Proportion of correct predictions.
+Precision: True positives / (True positives + False positives).
+Recall: True positives / (True positives + False negatives).
+F1-Score: Harmonic mean of precision and recall.
+ROC-AUC: Measures the trade-off between true positive rate and false positive rate.
+Use validation data to tune the model and avoid overfitting.
+9. Model Optimization
+Hyperparameter Tuning: Optimize the model's hyperparameters for better performance.
+Cross-Validation: Use techniques like k-fold cross-validation to ensure generalization.
+Early Stopping: Stop training when validation performance stops improving.
+10. Test the Model
+Evaluate the final model on the test set to measure its real-world performance.
+Ensure there is no data leakage between training and test sets.
+11. Deployment
+Package the model and deploy it in a production environment.
+Set up monitoring to check for performance degradation over time (concept drift).
+12. Iterate and Improve
+Collect feedback and new data to retrain or fine-tune the model.
+Update the model periodically to ensure it remains relevant and accurate.
+Summary of Steps
+Define the problem and collect data.
+Preprocess and split the data.
+Perform EDA and handle class imbalances.
+Choose and train a model.
+Evaluate and optimize the model.
+Test and deploy the model.
+Monitor and improve over time.
+By following these steps systematically, you can build a robust and reliable classification model.
