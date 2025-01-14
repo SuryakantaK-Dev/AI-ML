@@ -8,6 +8,8 @@ https://github.com/SuryakantaK-Dev/llms-interview-questions
 
 https://github.com/SuryakantaK-Dev/genai_interview_questions
 
+https://github.com/aishwaryanr/awesome-generative-ai-guide/blob/main/interview_prep/60_gen_ai_questions.md
+
 ML Inetreview Questions.
 
 https://github.com/SuryakantaK-Dev/CrackingMachineLearningInterview
