@@ -10,8 +10,6 @@ https://github.com/aishwaryanr/awesome-generative-ai-guide/blob/main/interview_p
 
 https://skphd.medium.com/large-language-model-llm-interview-questions-ded6264547f1
 
-https://github.com/a-tabaza/genai_interview_questions?tab=readme-ov-file#llm-and-prompting-basics
-
 https://devinterview.io/questions/machine-learning-and-data-science/llms-interview-questions/
 
 https://github.com/Devinterview-io/llms-interview-questions
