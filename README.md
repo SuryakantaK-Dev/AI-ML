@@ -24,6 +24,8 @@ https://github.com/SuryakantaK-Dev/CrackingMachineLearningInterview
 
 https://github.com/SuryakantaK-Dev/MLQuestions
 
+https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Deep%20Learning%20Questions%20%26%20Answers%20for%20Data%20Scientists.md
+
 Python
 
 https://github.com/SuryakantaK-Dev/Python/blob/master/Python%20Coding%20Interview%20Prep/Python%20Coding%20Interview%20Questions%20(Beginner%20to%20Advanced).md
