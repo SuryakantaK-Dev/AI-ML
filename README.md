@@ -27,3 +27,13 @@ Python
 https://github.com/SuryakantaK-Dev/Python/blob/master/Python%20Coding%20Interview%20Prep/Python%20Coding%20Interview%20Questions%20(Beginner%20to%20Advanced).md
 
 https://github.com/SuryakantaK-Dev/Python-Interview-Preparation
+
+Python Cheatsheet.
+
+https://quickref.me/python.html
+
+https://www.pythoncheatsheet.org/cheatsheet/basics
+
+https://github.com/gto76/python-cheatsheet/blob/main/README.md#list
+
+https://indico.global/event/6155/attachments/25456/43759/beginners_python_cheat_sheet_pcc_all.pdf
